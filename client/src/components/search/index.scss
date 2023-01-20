@@ -1,0 +1,19 @@
+#search {
+    input {
+        // width: 20%;
+        padding: 10px 45px;
+        border: none;
+        background-color: #1A242E;
+        color: #fff;
+        font-size: 17px;
+        border-bottom: 2px solid white;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    i{
+        position: absolute;
+        z-index: 1;
+        left: 5%;
+        top: 21%;
+    }
+}

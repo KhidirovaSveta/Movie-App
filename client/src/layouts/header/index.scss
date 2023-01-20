@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0e171e;
+}
+#header{
+    background-color: #1A242E;
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            h2{
+                font-size: 25px;
+                color: #fff;
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}

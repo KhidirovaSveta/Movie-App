@@ -1,0 +1,27 @@
+#Home{
+    color: #fff;
+    margin: 50px 0;
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+        .moveis{
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 40px;
+            a{
+                text-decoration: none;
+            }
+            .card{
+                transition: all .5s;
+                &:hover{
+                      transform: scale(1.05)
+                }
+            }
+            img{
+                height: 370px;
+            }
+        }
+    }
+}
